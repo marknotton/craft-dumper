@@ -1,0 +1,36 @@
+{
+  "name": "yellostudio/dumper",
+  "description": "Exposes VarDumper methods in Twig",
+  "type": "craft-module",
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Yello Studio",
+      "homepage": "https://www.yello.studio",
+      "email": "technical@yello.studio"
+    }
+  ],
+  "require": {
+    "craftcms/cms": "^3.0|^4.0",
+    "php": "^7.2.5|^8.0",
+    "symfony/var-dumper": "^6.0.0"
+  },
+  "support": {
+    "docs": "https://bitbucket.org/yellostudio/dumper/src/master/README.md"
+  },
+  "autoload": {
+    "psr-4": {
+      "yellostudio\\dumper\\": "/"
+    }
+  },
+  "extra": {
+    "name": "Dumper",
+    "handle": "dumper",
+    "developer": "Yello Studio",
+    "developerUrl": "https://bitbucket.org/yellostudio/dumper/src/master/",
+    "documentationUrl": "/admin/dumper/documentation",
+    "changelogUrl": "",
+    "class": "yellostudio\\dumper\\Dumper"
+  }
+}
